@@ -1,0 +1,12 @@
+@import url(navbar.css);
+
+:root {
+    --color-navbar:#3A404E;
+    --white:#FFFFFF;
+}
+
+
+body {
+    font: 16px;
+    background: gray;
+}

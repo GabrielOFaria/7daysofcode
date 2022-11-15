@@ -1,0 +1,11 @@
+.flex-container, p{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    background: var(--white);   
+    
+}
+
+.img {
+    width: 10px;
+}
