@@ -1,11 +1,27 @@
-.flex-container, p{
+nav {
     display: flex;
-    justify-content: space-around;
-    margin: auto;
-    background: var(--white);   
-    
+    align-items: center;
+    justify-content: space-between;
+    background: var(--white);
 }
 
+.box-0 {
+    background: var(--white);
+    margin: 28px 0 28px 112px;
+    width: 119px;
+}
+
+.box-1 {
+    background: var(--white);
+    margin: 0 0 0 119px;
+    width: 73%;
+    display: flex;
+    gap: 32px;
+    justify-content: flex-start;
+}
+
+
+
 .img {
-    width: 10px;
+    width: 12px;
 }
