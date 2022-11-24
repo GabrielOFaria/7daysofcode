@@ -3,6 +3,10 @@
 :root {
     --color-navbar:#3A404E;
     --white:#FFFFFF;
+    --red:#8E2424;
+    --green-text: #667085;
+
+    --font-main: 'Inter', sans-serif;
 }
 
 
