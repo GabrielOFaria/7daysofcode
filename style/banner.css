@@ -1,0 +1,14 @@
+section {
+    background: var(--white);
+    height: 100vh;
+    text-align: center;
+}
+
+div {
+    background: blue;
+    text-align: center;    
+}
+
+.banner__text {
+    font-size: 48px;
+}
