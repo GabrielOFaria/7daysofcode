@@ -6,19 +6,15 @@ section {
 div {
     background: var(--white);
     height: 250px;
-    text-align: center;    
+    text-align: center;
 }
 
-div > h1 {
-    padding: 24px 0 36px 0;
+div>h1 {
+    padding: 10px 0 36px 0;
     font-size: 48px;
 }
 
-div > p {
-   width: 630px;
-   margin-left: 22em;
-   font-family: var(--font-main);
-}
+
 
 p {
     color: var(--green-text);
@@ -26,28 +22,58 @@ p {
 
 .container {
     display: flex;
-    flex-direction: column; 
-    background: red; 
-    
+    flex-direction: column;
+
 }
 
 .box__banner {
-  justify-content: center;
-  padding-top: 3em;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    padding: 1em;
+
 }
 
 .container__aside {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    text-align: center;    
-    gap: 1em;
-    background: red;
+    text-align: center;
+    gap: 0.5em;
+    background: var(--white);
+    flex-grow: 0.2;
 }
 
-
-li {
-    padding: 0.5em;
+.number__top {
+    font-family: var(--font-main);
+    color: var(--red);
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
 }
 
+.text__bold {
+    font-family: var(--font-main);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.text {
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 24px;
+    color: var(--green-text);
+}
+
+#text-border {
+    background: rgba(142, 36, 36, 0.05);
+    padding: 8px;
+    border-radius: 16px;
+
+
+}

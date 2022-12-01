@@ -6,12 +6,12 @@
     --white:#FFFFFF;
     --red:#8E2424;
     --green-text: #667085;
+    --red: #8E2424;
 
     --font-main: 'Inter', sans-serif;
 }
 
 
 body {
-    font: 16px;
-    background: gray;
+    font: 16px;    
 }
