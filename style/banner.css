@@ -1,17 +1,8 @@
-section {
-    background: var(--white);
-    text-align: center;
-}
 
-div {
-    background: var(--white);
-    height: 250px;
-    text-align: center;
-}
 
 div>h1 {
     padding: 10px 0 36px 0;
-    font-size: 48px;
+    font-size: 36px;
 }
 
 
@@ -33,18 +24,18 @@ p {
     align-items: center;
     width: 50%;
     margin: auto;
-    padding: 1em;
+    padding: 1em 0 4em;
+    text-align: center;
 
 }
 
 .container__aside {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     text-align: center;
     gap: 0.5em;
     background: var(--white);
-    flex-grow: 0.2;
+    height: 250px;
 }
 
 .number__top {
@@ -63,6 +54,8 @@ p {
 }
 
 .text {
+    display: flex;
+    flex-wrap: wrap;
     font-family: var(--font-main);
     font-weight: 400;
     font-size: 1em;
